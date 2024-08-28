@@ -56,6 +56,8 @@ body{
 #msg{
     color: white;
     font-size: 5vmin;
+     padding: 10px;
+    border-radius: 5px;
 }
 
 .msg-container{
