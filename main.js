@@ -49,6 +49,7 @@ boxes.forEach((box)=>{
 });
 
 const gameDraw=()=>{
+    msg.style.background="red";
     msg.innerText=`It's a Draw`;
     msgcontainer.classList.remove("hide");
     disableBoxes();
@@ -70,6 +71,7 @@ const enableBoxes=()=>{
 }
 
 const showWinner=(winner)=>{
+    msg.style.background="green";
     msg.innerText=`Congratulations, Winner is ${winner}`;
     msgcontainer.classList.remove("hide");
     disableBoxes();
